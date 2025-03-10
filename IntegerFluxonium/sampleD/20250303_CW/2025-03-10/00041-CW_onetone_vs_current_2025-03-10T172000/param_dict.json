@@ -1,0 +1,51 @@
+{
+    "ro_freq": 7460000000.0,
+    "ro_power": -30,
+    "qu_freq": 3645000000.0,
+    "qu_power": -22,
+    "current": "sweeping",
+    "CW_onetone": {
+        "ro_freq_step": 2000000.0,
+        "ro_freq_start": 7460000000.0,
+        "ro_freq_stop": 7460000000.0,
+        "ro_freq_npts": 1,
+        "sweep": "current"
+    },
+    "CW_twotone": {
+        "qu_freq_step": 1000000.0,
+        "qu_freq_start": 3669000000.0,
+        "qu_freq_stop": 3699000000.0,
+        "qu_freq_npts": false,
+        "sweep": "index"
+    },
+    "CW_twotone_sweep_ro_freq": {
+        "ro_freq_step": 250000.0,
+        "ro_freq_start": 7260000000.0,
+        "ro_freq_stop": 7660000000.0,
+        "ro_freq_npts": false,
+        "sweep": false
+    },
+    "vna_bw": 1000,
+    "vna_avg": 1,
+    "gs_rampstep": 1e-06,
+    "gs_delay": 0.0005,
+    "gs_voltage_lim": 1,
+    "gs_current_range": 0.001,
+    "index": false,
+    "sweep_start": -0.0006,
+    "sweep_stop": -0.0002,
+    "sweep_npts": 11,
+    "sweep_list": [
+        -0.0006,
+        -0.00056,
+        -0.00052,
+        -0.00047999999999999996,
+        -0.00043999999999999996,
+        -0.00039999999999999996,
+        -0.00035999999999999997,
+        -0.00031999999999999997,
+        -0.00028,
+        -0.00023999999999999998,
+        -0.0002
+    ]
+}
