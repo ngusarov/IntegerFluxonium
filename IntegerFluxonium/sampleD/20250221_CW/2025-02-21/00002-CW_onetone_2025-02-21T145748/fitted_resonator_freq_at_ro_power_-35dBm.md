@@ -1,0 +1,1 @@
+fitted_resonator_freq:7465249243.062954 Hz

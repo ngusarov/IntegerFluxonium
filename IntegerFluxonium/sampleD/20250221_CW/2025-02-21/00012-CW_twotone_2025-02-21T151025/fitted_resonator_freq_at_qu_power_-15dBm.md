@@ -1,0 +1,1 @@
+fitted_qubit_freq:3794017515.052964 Hz
